@@ -1,17 +1,29 @@
 # image_display_app
 
-A new Flutter project.
+This Flutter project demonstrates how to display images from both local assets and network sources, as part of **Tutedude Flutter Assignment 1**.
+
+## Features
+
+- ✅ Display image from local `images/flutter_learn.png`
+- ✅ Display image from network using `Image.network`
+- ✅ Handles loading and error states
+- ✅ Includes UI enhancements: border radius & shadow
+- ✅ Accepts image URL via input field
+
+---
+
+## 📱 Screenshot
+
+![App Preview](screenshots/app_preview.jpg)
+
+---
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+To run this project locally:
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# tutedude-flutter-assignment-1
+```bash
+git clone https://github.com/yourusername/flutter-assignment-1.git
+cd flutter-assignment-1
+flutter pub get
+flutter run
